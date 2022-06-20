@@ -28,4 +28,4 @@ Requirements:
  How to use:
  
  - Open cmd and cd into this repository.
- - Run the command ``` python pythondetector.py ``` to start the program, make sure you have DroidCam Client open and are connected to your phones DroidCam via Wi-Fi or USB (if using a webcam ignore this)
+ - Run the command ``` python pythondetectorcpu.py ``` to start the program, make sure you have DroidCam Client open and are connected to your phones DroidCam via Wi-Fi or USB (if using a webcam ignore this)
