@@ -11,6 +11,7 @@ pose = mp_pose.Pose()
 
 notifTitle = "Warning"  # This will change the title of the notification being displayed
 notifContent = "Person detected!"  # This will change the content of the notification being displayed
+notifIcon = "warning.ico"
 
 visuals = True  # This will toggle the visiblity of the camera feed
 
@@ -37,12 +38,12 @@ def getPerson(checkimage):
         return personDetected, checkimage
 
 ### ---------------------------------------------- Notify function -----------------------------------------------------
-def notifyMe(title, message):
+def notifyMe(title, message, icon):
 
     notification.notify(
         title = title,
         message = message,
-        app_icon = "warning.ico", 
+        app_icon = icon, 
         timeout = 10,
     )
 
@@ -69,7 +70,7 @@ def useWebcam(IN=None):
         cv2.putText(displayImg, str(int(fps)), (5, 20), cv2.FONT_HERSHEY_PLAIN, 1, (255, 0, 0), 1)
 
         if personDetected == True and canNotify == True:
-            notifyMe(notifTitle, notifContent)
+            notifyMe(notifTitle, notifContent, notifIcon)
             canNotify = False
 
         elif personDetected == False and canNotify == False:
