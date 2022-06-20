@@ -5,7 +5,7 @@ Requirements:
  - A smartphone / webcam
  
  What it is:
- -  This is a machine learning model that has been trained to detect people and notify you.
+ -  This is a  project that uses a webcam (or a phone as webcam using droidcam app) to detect people at ~30fps using CPU only, and send a customizable notification to your notification tray when a person is detected.
  
  Installation Instructions:
  
