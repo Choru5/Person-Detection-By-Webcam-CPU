@@ -20,7 +20,7 @@ Requirements:
  notifTitle = "Warning" # This will change the title of the notification being displayed
  notifContent = "Person detected!" # This will change the content of the notification being displayed
 
- visuals = True  # This will toggle the visiblity of the camera feed
+ visuals = True # This will toggle the visiblity of the camera feed
  
  IN = 1  # This will toggle the webcam source (0 = normal webcam, 1 = smartphone DroidCam webcam)
 ```
