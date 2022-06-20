@@ -10,7 +10,7 @@ Requirements:
  Installation Instructions:
  
  - Download this repository.
- - Make sure you have Python 3.8 installed
+ - Make sure you have Python installed
  - Open cmd and cd into this repository.
  - Install required packages by running ``` pip install -r requirements.txt ```
  - Download DroidCam Client on your PC and the DroidCam app on your phone (if using a webcam ignore this)
